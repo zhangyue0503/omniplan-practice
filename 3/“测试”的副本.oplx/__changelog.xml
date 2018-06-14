@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="张玥" date="2018-06-13T09:00:17.848Z" timestamp="2018-06-13T09:00:17.848Z">
+    <change idref="t2" to="t-1" to-position="1" resolved="yes">
+      <change idref="t2" attribute="title" type="string" to="卫生间"/>
+    </change>
+    <change idref="t1" attribute="title" type="string" from="任务 1" to="客厅" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-13T09:02:42.073Z" timestamp="2018-06-13T09:02:42.073Z">
+    <change idref="t3" to="t-1" to-position="2" resolved="yes">
+      <change idref="t3" attribute="title" type="string" to="考虑时间了"/>
+    </change>
+    <change idref="t4" to="t-1" to-position="3" resolved="yes">
+      <change idref="t4" attribute="title" type="string" to="铃声快剪地方"/>
+    </change>
+    <change idref="t5" to="t-1" to-position="4" resolved="yes">
+      <change idref="t5" attribute="title" type="string" to="离开教室类库滴发"/>
+    </change>
+  </task-change-set>
+  <metadata-change-set user="张玥" date="2018-06-13T09:00:17.848Z" timestamp="2018-06-13T09:00:17.848Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2018-06-13T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

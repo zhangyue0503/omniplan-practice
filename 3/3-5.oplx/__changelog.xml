@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="张玥" date="2018-06-13T09:29:48.385Z" timestamp="2018-06-13T09:29:48.385Z">
+    <change idref="t2" to="t-1" to-position="1" resolved="yes">
+      <change idref="t2" attribute="internalEffortDone" type="real" from="0" to="18900"/>
+      <change idref="t2" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t2" attribute="title" type="string" to="炒宫保鸡丁"/>
+    </change>
+    <change idref="t5" to="t-1" to-position="2" resolved="yes">
+      <change idref="t5" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t5" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t5" attribute="title" type="string" to="包饺子（100个）"/>
+    </change>
+    <change idref="t6" to="t-1" to-position="3" resolved="yes">
+      <change idref="t6" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t6" attribute="internalEffortDone" type="real" from="0" to="19800"/>
+      <change idref="t6" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t6" attribute="title" type="string" to="任务 6"/>
+    </change>
+    <change idref="t7" to="t-1" to-position="4" resolved="yes">
+      <change idref="t7" attribute="internalEffortDone" type="real" from="0" to="20700"/>
+      <change idref="t7" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.287296&quot;;&#10;        g = &quot;0.25662&quot;;&#10;        r = &quot;0.987&quot;;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t7" attribute="title" type="string" to="任务 7"/>
+    </change>
+    <change idref="t8" to="t-1" to-position="5" resolved="yes">
+      <change idref="t8" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t8" attribute="title" type="string" to="任务 8"/>
+    </change>
+    <change idref="t9" to="t-1" to-position="6" resolved="yes">
+      <change idref="t9" attribute="title" type="string" to="任务 9"/>
+    </change>
+    <change idref="t10" to="t-1" to-position="7" resolved="yes">
+      <change idref="t10" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.287296&quot;;&#10;        g = &quot;0.25662&quot;;&#10;        r = &quot;0.987&quot;;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t10" attribute="title" type="string" to="任务 10"/>
+    </change>
+    <change idref="t11" to="t-1" to-position="8" resolved="yes">
+      <change idref="t11" attribute="title" type="string" to="任务 11"/>
+    </change>
+    <change idref="t12" to="t-1" to-position="9" resolved="yes">
+      <change idref="t12" attribute="title" type="string" to="任务 12"/>
+    </change>
+    <change idref="t1" attribute="title" type="string" from="任务 1" to="焖米饭" resolved="yes"/>
+    <change idref="t1" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" to="23040" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-13T09:40:54.181Z" timestamp="2018-06-13T09:40:54.181Z">
+    <change idref="t1" attribute="title" type="string" from="焖米饭" to="客厅装修" resolved="yes"/>
+    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t1" attribute="endLockedDate" type="date" to="2018-06-14T09:00:00.000Z" resolved="yes"/>
+    <change idref="t1" attribute="startLockedDate" type="date" to="2018-06-13T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1" attribute="internalDuration" type="string" to="57600s" resolved="yes"/>
+    <change idref="t2" attribute="title" type="string" from="炒宫保鸡丁" to="厨房装修" resolved="yes"/>
+    <change idref="t2" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-15T00:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="title" type="string" from="包饺子（100个）" to="卧室装修" resolved="yes"/>
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-13T00:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="effort" type="real" from="28800" to="21600" resolved="yes"/>
+    <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-13T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-13T09:50:15.008Z" timestamp="2018-06-13T09:50:15.008Z">
+    <change idref="t12" from="t-1" from-position="9" resolved="yes">
+      <change idref="t12" attribute="title" type="string" to="任务 12"/>
+    </change>
+    <change idref="t11" from="t-1" from-position="8" resolved="yes">
+      <change idref="t11" attribute="title" type="string" to="任务 11"/>
+    </change>
+    <change idref="t10" from="t-1" from-position="7" resolved="yes">
+      <change idref="t10" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.287296&quot;;&#10;        g = &quot;0.25662&quot;;&#10;        r = &quot;0.987&quot;;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t10" attribute="title" type="string" to="任务 10"/>
+    </change>
+    <change idref="t9" from="t-1" from-position="6" resolved="yes">
+      <change idref="t9" attribute="title" type="string" to="任务 9"/>
+    </change>
+    <change idref="t8" from="t-1" from-position="5" resolved="yes">
+      <change idref="t8" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t8" attribute="title" type="string" to="任务 8"/>
+    </change>
+    <change idref="t7" from="t-1" from-position="4" resolved="yes">
+      <change idref="t7" attribute="effort" type="real" from="28800" to="21600"/>
+      <change idref="t7" attribute="internalEffortDone" type="real" from="0" to="20700"/>
+      <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-13T00:00:00.000Z"/>
+      <change idref="t7" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.287296&quot;;&#10;        g = &quot;0.25662&quot;;&#10;        r = &quot;0.987&quot;;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t7" attribute="title" type="string" to="任务 7"/>
+    </change>
+    <change idref="t6" from="t-1" from-position="3" resolved="yes">
+      <change idref="t6" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t6" attribute="internalEffortDone" type="real" from="0" to="19800"/>
+      <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-13T00:00:00.000Z"/>
+      <change idref="t6" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t6" attribute="title" type="string" to="任务 6"/>
+    </change>
+    <change idref="t5" from="t-1" from-position="2" resolved="yes">
+      <change idref="t5" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-19T00:00:00.000Z"/>
+      <change idref="t5" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t5" attribute="title" type="string" to="卧室装修"/>
+    </change>
+    <change idref="t2" from="t-1" from-position="1" resolved="yes">
+      <change idref="t2" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t2" attribute="internalEffortDone" type="real" from="0" to="18900"/>
+      <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-15T00:00:00.000Z"/>
+      <change idref="t2" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t2" attribute="title" type="string" to="厨房装修"/>
+    </change>
+    <change idref="t1" from="t-1" from-position="0" resolved="yes">
+      <change idref="t1" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t1" attribute="endLockedDate" type="date" to="2018-06-14T09:00:00.000Z"/>
+      <change idref="t1" attribute="internalDuration" type="string" to="57600s"/>
+      <change idref="t1" attribute="internalEffortDone" type="real" from="0" to="23040"/>
+      <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" to="1"/>
+      <change idref="t1" attribute="startLockedDate" type="date" to="2018-06-13T00:00:00.000Z"/>
+      <change idref="t1" attribute="styleDict" type="dict" to="{&#10;    &quot;font-fill&quot; =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t1" attribute="title" type="string" to="客厅装修"/>
+    </change>
+    <change idref="t19" to="t-1" to-position="0" resolved="yes">
+      <change idref="t19" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t19" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t19" attribute="title" type="string" to="主食"/>
+    </change>
+    <change idref="t20" to="t19" to-position="0" resolved="yes">
+      <change idref="t20" attribute="title" type="string" to="米饭"/>
+    </change>
+    <change idref="t21" to="t19" to-position="1" resolved="yes">
+      <change idref="t21" attribute="title" type="string" to="馒头"/>
+    </change>
+    <change idref="t22" to="t19" to-position="2" resolved="yes">
+      <change idref="t22" attribute="title" type="string" to="包子"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-13T09:59:25.001Z" timestamp="2018-06-13T09:59:25.001Z">
+    <change idref="t19" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.287296&quot;;&#10;        g = &quot;0.25662&quot;;&#10;        r = &quot;0.987&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t20" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t20" attribute="internalEffortDone" type="real" from="0" to="11700" resolved="yes"/>
+    <change idref="t21" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-14T00:00:00.000Z" resolved="yes"/>
+    <change idref="t21" attribute="internalEffortDone" type="real" from="0" to="18000" resolved="yes"/>
+    <change idref="t22" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t22" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-15T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <metadata-change-set user="张玥" date="2018-06-13T09:29:48.384Z" timestamp="2018-06-13T09:29:48.384Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2018-06-13T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
