@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="张玥" date="2018-06-21T11:05:00.585Z" timestamp="2018-06-21T11:05:00.585Z">
+    <change idref="t2" to="t-1" to-position="1" resolved="yes">
+      <change idref="t2" attribute="title" type="string" to="铺地砖（A房间）"/>
+    </change>
+    <change idref="t3" to="t-1" to-position="2" resolved="yes">
+      <change idref="t3" attribute="title" type="string" to="铺地砖（B房间）"/>
+    </change>
+    <change idref="t4" to="t-1" to-position="3" resolved="yes">
+      <change idref="t4" attribute="title" type="string" to="任务 1"/>
+    </change>
+    <change idref="t1" attribute="title" type="string" from="任务 1" to="地面" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-21T11:12:33.387Z" timestamp="2018-06-21T11:12:33.387Z">
+    <change idref="t1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t1" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t1" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t1" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t2" from="t-1" from-position="1" to="t1" to-position="0" resolved="yes"/>
+    <change idref="t3" from="t-1" from-position="2" to="t1" to-position="1" resolved="yes"/>
+    <change idref="t2" attribute="staticCost" type="real" from="0" to="32000" resolved="yes"/>
+    <change idref="t2" attribute="effort" type="real" from="28800" to="576000" resolved="yes"/>
+    <change idref="t2" attribute="internalAssignments" type="string" from="" to="2; 3; 4; 5; 6" resolved="yes"/>
+    <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="staticCost" type="real" from="0" to="10000" resolved="yes"/>
+    <change idref="t4" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t4" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t4" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t4" attribute="title" type="string" from="任务 1" to="办公设备" resolved="yes"/>
+    <change idref="t4" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t4" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t4" attribute="internalPrerequisitesString" type="string" to="1FS" resolved="yes"/>
+    <change idref="t4" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t10" to="t4" to-position="0" resolved="yes">
+      <change idref="t10" attribute="staticCost" type="real" from="0" to="50000"/>
+      <change idref="t10" attribute="title" type="string" to="办公家具"/>
+    </change>
+    <change idref="t11" to="t4" to-position="1" resolved="yes">
+      <change idref="t11" attribute="staticCost" type="real" from="0" to="90000"/>
+      <change idref="t11" attribute="title" type="string" to="电脑购买安装"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-21T11:13:29.676Z" timestamp="2018-06-21T11:13:29.676Z">
+    <change idref="t3" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t10" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+    <change idref="t11" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-21T11:16:17.227Z" timestamp="2018-06-21T11:16:17.227Z">
+    <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-21T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-21T11:29:26.101Z" timestamp="2018-06-21T11:29:26.101Z">
+    <change idref="t12" to="t4" to-position="2" resolved="yes">
+      <change idref="t12" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-21T00:45:00.000Z"/>
+      <change idref="t12" attribute="title" type="string" to="任务 1"/>
+    </change>
+    <change idref="t13" to="t4" to-position="3" resolved="yes">
+      <change idref="t13" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-27T00:00:00.000Z"/>
+      <change idref="t13" attribute="title" type="string" to="任务 2"/>
+    </change>
+    <change idref="t14" to="t4" to-position="4" resolved="yes">
+      <change idref="t14" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-27T00:00:00.000Z"/>
+      <change idref="t14" attribute="title" type="string" to="任务 3"/>
+    </change>
+    <change idref="t15" to="t4" to-position="5" resolved="yes">
+      <change idref="t15" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t15" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-21T00:45:00.000Z"/>
+      <change idref="t15" attribute="title" type="string" to="任务 4"/>
+    </change>
+    <change idref="t16" to="t4" to-position="6" resolved="yes">
+      <change idref="t16" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t16" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-21T00:45:00.000Z"/>
+      <change idref="t16" attribute="title" type="string" to="任务 5"/>
+    </change>
+    <change idref="t17" to="t4" to-position="7" resolved="yes">
+      <change idref="t17" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t17" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-21T00:45:00.000Z"/>
+      <change idref="t17" attribute="title" type="string" to="任务 6"/>
+    </change>
+    <change idref="t18" to="t4" to-position="8" resolved="yes">
+      <change idref="t18" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-21T00:45:00.000Z"/>
+      <change idref="t18" attribute="title" type="string" to="任务 7"/>
+    </change>
+    <change idref="t19" to="t4" to-position="9" resolved="yes">
+      <change idref="t19" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t19" attribute="title" type="string" to="任务 8"/>
+    </change>
+  </task-change-set>
+  <resource-change-set user="张玥" date="2018-06-21T11:12:33.387Z" timestamp="2018-06-21T11:12:33.387Z">
+    <change idref="r1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="r1" attribute="costPerUse" type="real" from="0" resolved="yes"/>
+    <change idref="r1" attribute="costPerHour" type="real" from="0" resolved="yes"/>
+    <change idref="r1" attribute="efficiency" type="real" from="1" resolved="yes"/>
+    <change idref="r1" attribute="unitsAvailable" type="real" from="1" resolved="yes"/>
+    <change idref="r1" attribute="resourceTypeRank" type="real" from="0" to="3" resolved="yes"/>
+    <change idref="r1" attribute="name" type="string" from="资源 1" to="地砖工人" resolved="yes"/>
+    <change idref="r2" to="r1" to-position="0" resolved="yes">
+      <change idref="r2" attribute="costPerHour" type="real" from="0" to="37.5"/>
+      <change idref="r2" attribute="name" type="string" from="" to="地砖工人1"/>
+    </change>
+    <change idref="r3" to="r1" to-position="1" resolved="yes">
+      <change idref="r3" attribute="costPerHour" type="real" from="0" to="37.5"/>
+      <change idref="r3" attribute="name" type="string" from="" to="地砖工人2"/>
+    </change>
+    <change idref="r4" to="r1" to-position="2" resolved="yes">
+      <change idref="r4" attribute="costPerHour" type="real" from="0" to="37.5"/>
+      <change idref="r4" attribute="name" type="string" from="" to="地砖工人3"/>
+    </change>
+    <change idref="r5" to="r1" to-position="3" resolved="yes">
+      <change idref="r5" attribute="costPerHour" type="real" from="0" to="37.5"/>
+      <change idref="r5" attribute="name" type="string" from="" to="地砖工人4"/>
+    </change>
+    <change idref="r6" to="r1" to-position="4" resolved="yes">
+      <change idref="r6" attribute="costPerHour" type="real" from="0" to="37.5"/>
+      <change idref="r6" attribute="name" type="string" from="" to="地砖工人5"/>
+    </change>
+  </resource-change-set>
+  <resource-change-set user="张玥" date="2018-06-21T11:29:26.100Z" timestamp="2018-06-21T11:29:26.100Z">
+    <change idref="r2" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzkzNlxjb2NvYXJ0ZjE1NjFcY29jb2FzdWJydGY0MDAKe1xmb250dGJsXGYwXGZuaWxcZmNoYXJzZXQwIEhlbHZldGljYU5ldWU7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkODVcZ3JlZW44NVxibHVlODU7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO1xjc2dyYXlcYzA7fQpccGFyZFx0eDU2MFx0eDExMjBcdHgxNjgwXHR4MjI0MFx0eDI4MDBcdHgzMzYwXHR4MzkyMFx0eDQ0ODBcdHg1MDQwXHR4NTYwMFx0eDYxNjBcdHg2NzIwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczI0IFxjZjIgXHVwMCBcbm9zdXBlcnN1YiBcdWxub25lIFxvYmxpcXVlbmVzczAgXGV4cGFuc2lvbjAgMTIzMTIzfQ==" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="张玥" date="2018-06-21T11:38:55.402Z" timestamp="2018-06-21T11:38:55.402Z">
+    <change idref="r2" attribute="attachmentDict" type="dict" to="{&#10;    a =     (&#10;                {&#10;        }&#10;    );&#10;}"/>
+  </resource-change-set>
+  <metadata-change-set user="张玥" date="2018-06-21T11:00:48.681Z" timestamp="2018-06-21T11:00:48.681Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2018-06-21T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="张玥" date="2018-06-21T11:05:00.585Z" timestamp="2018-06-21T11:05:00.585Z">
+    <change idref="m1" attribute="groupTaskStyle" type="dict" from="{&#10;    &quot;font-name&quot; = &quot;HelveticaNeue-Medium&quot;;&#10;    &quot;font-weight&quot; = 6;&#10;}" to="{&#10;    &quot;font-name&quot; = &quot;HelveticaNeue-Medium&quot;;&#10;    &quot;font-weight&quot; = 6;&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.287296&quot;;&#10;        g = &quot;0.25662&quot;;&#10;        r = &quot;0.987&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="standardTaskStyle" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.211432&quot;;&#10;        g = &quot;0.458381&quot;;&#10;        r = &quot;0.988&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="pEzi91FS0yE">
+  <start-date>2018-06-21T00:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>任务 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>里程碑 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>群组 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>资源 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>设备 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>素材 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>群组 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r1"/>
+    <child-resource idref="r11"/>
+    <child-resource idref="r12"/>
+    <child-resource idref="r13"/>
+  </resource>
+  <resource id="r1">
+    <name>小赵（男）</name>
+    <type>Staff</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="68400"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="68400"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r11">
+    <name>小李（女）</name>
+    <type>Staff</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="75600"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="77400"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="77400"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="77400"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="77400"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="77400"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="64800" end-time="75600"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r12">
+    <name>小张（男）</name>
+    <type>Staff</type>
+    <schedule>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes">
+        <event start="2018-06-20T09:45:00.000Z" end="2018-06-22T13:00:00.000Z" sd="6379" st="63900" ed="6381" et="75600"/>
+      </calendar>
+    </schedule>
+  </resource>
+  <resource id="r13">
+    <name>小王（女）</name>
+    <type>Staff</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="50400" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="50400" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="50400" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="50400" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="50400" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t2"/>
+    <child-task idref="t3"/>
+    <child-task idref="t4"/>
+  </task>
+  <task id="t1">
+    <title>文案</title>
+    <effort>144000</effort>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t2">
+    <title>设计</title>
+    <effort>144000</effort>
+    <prerequisite-task idref="t1"/>
+    <assignment idref="r11"/>
+  </task>
+  <task id="t3">
+    <title>校对</title>
+    <effort>14400</effort>
+    <prerequisite-task idref="t2"/>
+    <assignment idref="r12"/>
+  </task>
+  <task id="t4">
+    <title>委派印刷</title>
+    <effort>7200</effort>
+    <prerequisite-task idref="t3"/>
+    <assignment idref="r13"/>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color space="srgb" r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>

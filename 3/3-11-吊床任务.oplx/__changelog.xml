@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="张玥" date="2018-06-19T10:05:45.227Z" timestamp="2018-06-19T10:05:45.227Z">
+    <change idref="t1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t1" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t1" attribute="title" type="string" from="任务 1" to="图书出息" resolved="yes"/>
+    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t1" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t1" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t1" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t2" to="t1" to-position="0" resolved="yes">
+      <change idref="t2" attribute="effort" type="real" from="28800" to="39600"/>
+      <change idref="t2" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t2" attribute="title" type="string" to="书籍定稿"/>
+    </change>
+    <change idref="t3" to="t1" to-position="1" resolved="yes">
+      <change idref="t3" attribute="effort" type="real" from="28800" to="21600"/>
+      <change idref="t3" attribute="internalPrerequisitesString" type="string" to="2FS, 4SF"/>
+      <change idref="t3" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t3" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t3" attribute="taskType" type="real" from="0" to="3"/>
+      <change idref="t3" attribute="title" type="string" to="校对排版"/>
+    </change>
+    <change idref="t4" to="t1" to-position="2" resolved="yes">
+      <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-21T01:00:00.000Z"/>
+      <change idref="t4" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t4" attribute="title" type="string" to="工厂印刷"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-19T10:06:30.096Z" timestamp="2018-06-19T10:06:30.096Z">
+    <change idref="t5" to="t1" to-position="3" resolved="yes">
+      <change idref="t5" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t5" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t5" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t5" attribute="title" type="string" to="图书出息"/>
+    </change>
+    <change idref="t6" to="t5" to-position="0" resolved="yes">
+      <change idref="t6" attribute="effort" type="real" from="28800" to="36900"/>
+      <change idref="t6" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t6" attribute="title" type="string" to="书籍定稿"/>
+    </change>
+    <change idref="t7" to="t5" to-position="1" resolved="yes">
+      <change idref="t7" attribute="effort" type="real" from="28800" to="21600"/>
+      <change idref="t7" attribute="internalPrerequisitesString" type="string" to="6FS, 8SF"/>
+      <change idref="t7" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t7" attribute="title" type="string" to="校对排版"/>
+    </change>
+    <change idref="t8" to="t5" to-position="2" resolved="yes">
+      <change idref="t8" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-20T07:15:00.000Z"/>
+      <change idref="t8" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-completion-color&quot; =     {&#10;        b = &quot;0.31341&quot;;&#10;        g = &quot;0.5621&quot;;&#10;        r = &quot;0.181839&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t8" attribute="title" type="string" to="工厂印刷"/>
+    </change>
+  </task-change-set>
+  <metadata-change-set user="张玥" date="2018-06-19T10:00:25.825Z" timestamp="2018-06-19T10:00:25.825Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

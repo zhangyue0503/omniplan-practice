@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="张玥" date="2018-06-25T09:06:11.942Z" timestamp="2018-06-25T09:06:11.942Z">
+    <change idref="t4" from="t-1" from-position="3" resolved="yes">
+      <change idref="t4" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t4" attribute="internalAssignments" type="string" from="" to="13"/>
+      <change idref="t4" attribute="internalPrerequisitesString" type="string" to="3FS"/>
+      <change idref="t4" attribute="title" type="string" to="委派印刷"/>
+    </change>
+    <change idref="t3" from="t-1" from-position="2" resolved="yes">
+      <change idref="t3" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t3" attribute="internalAssignments" type="string" from="" to="12"/>
+      <change idref="t3" attribute="internalPrerequisitesString" type="string" to="2FS"/>
+      <change idref="t3" attribute="title" type="string" to="校对"/>
+    </change>
+    <change idref="t2" from="t-1" from-position="1" resolved="yes">
+      <change idref="t2" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t2" attribute="internalAssignments" type="string" from="" to="11"/>
+      <change idref="t2" attribute="internalPrerequisitesString" type="string" to="1FS"/>
+      <change idref="t2" attribute="title" type="string" to="设计"/>
+    </change>
+    <change idref="t1" from="t-1" from-position="0" resolved="yes">
+      <change idref="t1" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t1" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1" attribute="title" type="string" to="文案"/>
+    </change>
+    <change idref="t6" to="t-1" to-position="0" resolved="yes">
+      <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-25T00:00:00.000Z"/>
+      <change idref="t6" attribute="title" type="string" to="任务 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-25T09:12:36.416Z" timestamp="2018-06-25T09:12:36.416Z">
+    <change idref="t7" to="t-1" to-position="1" resolved="yes">
+      <change idref="t7" attribute="effort" type="real" from="28800" to="172800"/>
+      <change idref="t7" attribute="internalAssignments" type="string" from="" to="15"/>
+      <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-25T00:00:00.000Z"/>
+      <change idref="t7" attribute="title" type="string" to="任务 2"/>
+    </change>
+    <change idref="t6" attribute="effort" type="real" from="28800" to="172800" resolved="yes"/>
+    <change idref="t6" attribute="internalAssignments" type="string" from="" to="14" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="张玥" date="2018-06-25T09:06:11.942Z" timestamp="2018-06-25T09:06:11.942Z">
+    <change idref="r13" from="r-1" from-position="3" resolved="yes">
+      <change idref="r13" attribute="name" type="string" from="" to="小王（女）"/>
+      <change idref="r13" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";28800,43200,50400,61200;28800,43200,50400,61200;28800,43200,50400,61200;28800,43200,50400,61200;28800,43200,50400,61200;"/>
+    </change>
+    <change idref="r12" from="r-1" from-position="2" resolved="yes">
+      <change idref="r12" attribute="name" type="string" from="" to="小张（男）"/>
+      <change idref="r12" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcICVJlZFJzdFJldFJzZBEY7SJHeZwAIkeTqAARGOsIChMWGRwfIicsAAAAAAAAAQEAAAAAAAAACgAAAAAAAAAAAAAAAAAAAC8="/>
+    </change>
+    <change idref="r11" from="r-1" from-position="1" resolved="yes">
+      <change idref="r11" attribute="name" type="string" from="" to="小李（女）"/>
+      <change idref="r11" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="28800,43200,46800,61200,64800,75600;28800,43200,46800,61200,64800,77400;28800,43200,46800,61200,64800,77400;28800,43200,46800,61200,64800,77400;28800,43200,46800,61200,64800,77400;28800,43200,46800,61200,64800,77400;28800,43200,46800,61200,64800,75600"/>
+    </change>
+    <change idref="r1" from="r-1" from-position="0" resolved="yes">
+      <change idref="r1" attribute="name" type="string" from="" to="小赵（男）"/>
+      <change idref="r1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="28800,43200,46800,68400;28800,43200,46800,61200,64800,79200;28800,43200,46800,61200,64800,79200;28800,43200,46800,61200,64800,79200;28800,43200,46800,61200,64800,79200;28800,43200,46800,61200,64800,79200;28800,43200,46800,68400"/>
+    </change>
+    <change idref="r14" to="r-1" to-position="0" resolved="yes">
+      <change idref="r14" attribute="name" type="string" from="" to="资源 1"/>
+    </change>
+    <change idref="r15" to="r-1" to-position="1" resolved="yes">
+      <change idref="r15" attribute="name" type="string" from="" to="资源 2"/>
+    </change>
+  </resource-change-set>
+  <resource-change-set user="张玥" date="2018-06-25T09:17:39.519Z" timestamp="2018-06-25T09:17:39.519Z">
+    <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcICVJlZFJzdFJldFJzZBEY8SJHfSAAIkeasAARGPAIChMWGRwfIicsAAAAAAAAAQEAAAAAAAAACgAAAAAAAAAAAAAAAAAAAC8="/>
+    <change idref="r15" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCjAQkO1AIDBAUGBwgGUmVkUnN0UmV0UnNkERjyIkd9IAAiR5qwANQCAwQFCgsMDREY9iJG4QAAIkcowAARGPXUAgMEBQoPEA0iRzbQACJHbxAACAwVGBseISQpLjc6P0RHUFUAAAAAAAABAQAAAAAAAAARAAAAAAAAAAAAAAAAAAAAWg=="/>
+  </resource-change-set>
+</changelog>

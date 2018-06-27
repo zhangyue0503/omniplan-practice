@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="张玥" date="2018-06-19T11:11:08.388Z" timestamp="2018-06-19T11:11:08.388Z">
+    <change idref="t2" to="t-1" to-position="1" resolved="yes">
+      <change idref="t2" attribute="title" type="string" to="任务 2"/>
+    </change>
+    <change idref="t3" to="t-1" to-position="2" resolved="yes">
+      <change idref="t3" attribute="title" type="string" to="任务 3"/>
+    </change>
+    <change idref="t4" to="t-1" to-position="3" resolved="yes">
+      <change idref="t4" attribute="title" type="string" to="任务 4"/>
+    </change>
+    <change idref="t5" to="t-1" to-position="4" resolved="yes">
+      <change idref="t5" attribute="title" type="string" to="任务 5"/>
+    </change>
+    <change idref="t6" to="t-1" to-position="5" resolved="yes">
+      <change idref="t6" attribute="title" type="string" to="任务 6"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-19T11:14:40.590Z" timestamp="2018-06-19T11:14:40.590Z">
+    <change idref="t1" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t2" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t3" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t4" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t5" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t6" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-19T11:16:10.980Z" timestamp="2018-06-19T11:16:10.980Z">
+    <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-26T00:15:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-19T11:16:21.251Z" timestamp="2018-06-19T11:16:21.251Z">
+    <change idref="t1" attribute="resourceLeveledDate" type="date" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t2" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" from="2018-06-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t2" attribute="resourceLeveledDate" type="date" to="2018-06-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" from="2018-06-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="resourceLeveledDate" type="date" to="2018-06-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" from="2018-06-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" to="2018-06-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" from="2018-06-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="resourceLeveledDate" type="date" to="2018-06-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" from="2018-06-26T00:15:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="resourceLeveledDate" type="date" to="2018-06-26T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <metadata-change-set user="张玥" date="2018-06-19T11:10:30.367Z" timestamp="2018-06-19T11:10:30.367Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="张玥" date="2018-06-19T11:14:40.589Z" timestamp="2018-06-19T11:14:40.589Z">
+    <change idref="m1" attribute="levelConstrainsCompletionDate" type="real" from="1" to="0" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="张玥" date="2018-06-19T11:16:21.251Z" timestamp="2018-06-19T11:16:21.251Z">
+    <change idref="m1" attribute="autoLevelResources" type="real" from="0" to="1" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="张玥" date="2018-06-20T10:41:52.799Z" timestamp="2018-06-20T10:41:52.799Z">
+    <change idref="t1" attribute="internalAssignments" type="string" from="" to="1 {50}"/>
+    <change idref="t1" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-19T00:00:00.000Z"/>
+  </task-change-set>
+  <resource-change-set user="张玥" date="2018-06-20T10:41:52.799Z" timestamp="2018-06-20T10:41:52.799Z">
+    <change idref="r1" attribute="efficiency" type="real" from="1" to="1.5"/>
+    <change idref="r1" attribute="unitsAvailable" type="real" from="1" to="0.5"/>
+    <change idref="r1" attribute="name" type="string" from="资源 1" to="张玥"/>
+  </resource-change-set>
+  <metadata-change-set user="张玥" date="2018-06-19T11:16:33.684Z" timestamp="2018-06-19T11:16:33.684Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

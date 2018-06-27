@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="张玥" date="2018-06-19T10:34:23.334Z" timestamp="2018-06-19T10:34:23.334Z">
+    <change idref="t2" to="t-1" to-position="1" resolved="yes">
+      <change idref="t2" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t2" attribute="title" type="string" to="任务 2"/>
+    </change>
+    <change idref="t3" to="t-1" to-position="2" resolved="yes">
+      <change idref="t3" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t3" attribute="title" type="string" to="任务 3"/>
+    </change>
+    <change idref="t4" to="t-1" to-position="3" resolved="yes">
+      <change idref="t4" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t4" attribute="title" type="string" to="任务 4"/>
+    </change>
+    <change idref="t5" to="t-1" to-position="4" resolved="yes">
+      <change idref="t5" attribute="internalAssignments" type="string" from="" to="7"/>
+      <change idref="t5" attribute="title" type="string" to="任务 5"/>
+    </change>
+    <change idref="t6" to="t-1" to-position="5" resolved="yes">
+      <change idref="t6" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-21T00:00:00.000Z"/>
+      <change idref="t6" attribute="title" type="string" to="任务 6"/>
+    </change>
+    <change idref="t7" to="t-1" to-position="6" resolved="yes">
+      <change idref="t7" attribute="title" type="string" to="任务 7"/>
+    </change>
+    <change idref="t8" to="t-1" to-position="7" resolved="yes">
+      <change idref="t8" attribute="title" type="string" to="任务 8"/>
+    </change>
+    <change idref="t9" to="t-1" to-position="8" resolved="yes">
+      <change idref="t9" attribute="title" type="string" to="任务 9"/>
+    </change>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="张玥" date="2018-06-19T10:34:23.333Z" timestamp="2018-06-19T10:34:23.333Z">
+    <change idref="r5" to="r-1" to-position="1" resolved="yes">
+      <change idref="r5" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="r5" attribute="name" type="string" from="" to="电脑"/>
+      <change idref="r5" attribute="resourceTypeRank" type="real" from="0" to="3"/>
+    </change>
+    <change idref="r8" to="r-1" to-position="2" resolved="yes">
+      <change idref="r8" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="r8" attribute="name" type="string" from="" to="材料"/>
+      <change idref="r8" attribute="resourceTypeRank" type="real" from="0" to="3"/>
+    </change>
+    <change idref="r1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="r1" attribute="costPerUse" type="real" from="0" resolved="yes"/>
+    <change idref="r1" attribute="costPerHour" type="real" from="0" resolved="yes"/>
+    <change idref="r1" attribute="efficiency" type="real" from="1" resolved="yes"/>
+    <change idref="r1" attribute="unitsAvailable" type="real" from="1" resolved="yes"/>
+    <change idref="r1" attribute="resourceTypeRank" type="real" from="0" to="3" resolved="yes"/>
+    <change idref="r1" attribute="name" type="string" from="资源 1" to="设计师" resolved="yes"/>
+    <change idref="r2" to="r1" to-position="0" resolved="yes">
+      <change idref="r2" attribute="name" type="string" from="" to="张三"/>
+    </change>
+    <change idref="r3" to="r1" to-position="1" resolved="yes">
+      <change idref="r3" attribute="name" type="string" from="" to="李四"/>
+    </change>
+    <change idref="r4" to="r1" to-position="2" resolved="yes">
+      <change idref="r4" attribute="name" type="string" from="" to="王五"/>
+    </change>
+    <change idref="r6" to="r5" to-position="0" resolved="yes">
+      <change idref="r6" attribute="name" type="string" from="" to="电脑A"/>
+      <change idref="r6" attribute="resourceTypeRank" type="real" from="0" to="1"/>
+    </change>
+    <change idref="r7" to="r5" to-position="1" resolved="yes">
+      <change idref="r7" attribute="name" type="string" from="" to="电脑B"/>
+      <change idref="r7" attribute="resourceTypeRank" type="real" from="0" to="1"/>
+    </change>
+    <change idref="r9" to="r8" to-position="0" resolved="yes">
+      <change idref="r9" attribute="efficiency" type="real" from="1" to="0"/>
+      <change idref="r9" attribute="name" type="string" from="" to="文档A"/>
+      <change idref="r9" attribute="resourceTypeRank" type="real" from="0" to="2"/>
+      <change idref="r9" attribute="unitsAvailable" type="real" from="1" to="0"/>
+    </change>
+    <change idref="r10" to="r8" to-position="1" resolved="yes">
+      <change idref="r10" attribute="efficiency" type="real" from="1" to="0"/>
+      <change idref="r10" attribute="name" type="string" from="" to="文档B"/>
+      <change idref="r10" attribute="resourceTypeRank" type="real" from="0" to="2"/>
+      <change idref="r10" attribute="unitsAvailable" type="real" from="1" to="0"/>
+    </change>
+  </resource-change-set>
+  <metadata-change-set user="张玥" date="2018-06-19T10:07:16.611Z" timestamp="2018-06-19T10:07:16.611Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

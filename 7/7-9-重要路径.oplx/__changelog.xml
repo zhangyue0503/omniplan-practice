@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="张玥" date="2018-06-25T10:01:14.838Z" timestamp="2018-06-25T10:01:14.838Z">
+    <change idref="t17" attribute="effort" type="real" from="144000" to="172800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-25T10:03:05.308Z" timestamp="2018-06-25T10:03:05.308Z">
+    <change idref="t17" attribute="noEarlierThanConstraintDate" type="date" from="2018-06-28T00:00:00.000Z" to="2018-06-29T01:45:00.000Z" resolved="yes"/>
+    <change idref="t18" attribute="effort" type="real" from="230400" to="115200" resolved="yes"/>
+    <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" from="2018-07-03T00:00:00.000Z" to="2018-07-04T02:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-25T10:04:21.718Z" timestamp="2018-06-25T10:04:21.718Z">
+    <change idref="t16" attribute="internalEffortDone" type="real" from="0" to="86400" resolved="yes"/>
+    <change idref="t17" attribute="internalEffortDone" type="real" from="0" to="105300" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-25T10:04:58.876Z" timestamp="2018-06-25T10:04:58.876Z">
+    <change idref="t17" attribute="effort" type="real" from="172800" to="288000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-26T09:39:49.507Z" timestamp="2018-06-26T09:39:49.507Z">
+    <change idref="t18" from="t-1" from-position="2" resolved="yes">
+      <change idref="t18" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-04T02:30:00.000Z"/>
+      <change idref="t18" attribute="title" type="string" to="C"/>
+    </change>
+    <change idref="t17" from="t-1" from-position="1" resolved="yes">
+      <change idref="t17" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t17" attribute="internalEffortDone" type="real" from="0" to="105300"/>
+      <change idref="t17" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-29T01:45:00.000Z"/>
+      <change idref="t17" attribute="title" type="string" to="B"/>
+    </change>
+    <change idref="t16" from="t-1" from-position="0" resolved="yes">
+      <change idref="t16" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t16" attribute="internalEffortDone" type="real" from="0" to="86400"/>
+      <change idref="t16" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-25T00:00:00.000Z"/>
+      <change idref="t16" attribute="title" type="string" to="A"/>
+    </change>
+    <change idref="t21" to="t-1" to-position="0" resolved="yes">
+      <change idref="t21" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t21" attribute="title" type="string" to="A"/>
+    </change>
+    <change idref="t22" to="t-1" to-position="1" resolved="yes">
+      <change idref="t22" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t22" attribute="internalPrerequisitesString" type="string" to="21FS"/>
+      <change idref="t22" attribute="title" type="string" to="B"/>
+    </change>
+    <change idref="t23" to="t-1" to-position="2" resolved="yes">
+      <change idref="t23" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t23" attribute="internalPrerequisitesString" type="string" to="22FS"/>
+      <change idref="t23" attribute="title" type="string" to="C"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-27T09:53:25.926Z" timestamp="2018-06-27T09:53:25.926Z">
+    <change idref="t23" from="t-1" from-position="2" resolved="yes">
+      <change idref="t23" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t23" attribute="internalPrerequisitesString" type="string" to="22FS"/>
+      <change idref="t23" attribute="title" type="string" to="C"/>
+    </change>
+    <change idref="t22" from="t-1" from-position="1" resolved="yes">
+      <change idref="t22" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t22" attribute="internalPrerequisitesString" type="string" to="21FS"/>
+      <change idref="t22" attribute="title" type="string" to="B"/>
+    </change>
+    <change idref="t21" from="t-1" from-position="0" resolved="yes">
+      <change idref="t21" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t21" attribute="title" type="string" to="A"/>
+    </change>
+    <change idref="t26" to="t-1" to-position="0" resolved="yes">
+      <change idref="t26" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t26" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.566152&quot;;&#10;        g = &quot;0.803&quot;;&#10;        r = &quot;0.440847&quot;;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t26" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t26" attribute="title" type="string" to="群组1"/>
+    </change>
+    <change idref="t30" to="t-1" to-position="1" resolved="yes">
+      <change idref="t30" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t30" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t30" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t30" attribute="title" type="string" to="群组2"/>
+    </change>
+    <change idref="t34" to="t-1" to-position="2" resolved="yes">
+      <change idref="t34" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t34" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t34" attribute="title" type="string" to="群组3"/>
+    </change>
+    <change idref="t31" to="t30" to-position="0" resolved="yes">
+      <change idref="t31" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t31" attribute="title" type="string" to="任务 4"/>
+    </change>
+    <change idref="t32" to="t30" to-position="1" resolved="yes">
+      <change idref="t32" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t32" attribute="internalPrerequisitesString" type="string" to="31FS"/>
+      <change idref="t32" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t32" attribute="title" type="string" to="任务 5"/>
+    </change>
+    <change idref="t33" to="t30" to-position="2" resolved="yes">
+      <change idref="t33" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t33" attribute="internalPrerequisitesString" type="string" to="32FS"/>
+      <change idref="t33" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t33" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t33" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t33" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t33" attribute="title" type="string" to="里程碑2"/>
+    </change>
+    <change idref="t35" to="t34" to-position="0" resolved="yes">
+      <change idref="t35" attribute="title" type="string" to="任务6"/>
+    </change>
+    <change idref="t36" to="t34" to-position="1" resolved="yes">
+      <change idref="t36" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t36" attribute="internalPrerequisitesString" type="string" to="35FS"/>
+      <change idref="t36" attribute="title" type="string" to="任务7"/>
+    </change>
+    <change idref="t37" to="t34" to-position="2" resolved="yes">
+      <change idref="t37" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t37" attribute="internalPrerequisitesString" type="string" to="36FS"/>
+      <change idref="t37" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t37" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t37" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t37" attribute="title" type="string" to="里程碑3"/>
+    </change>
+    <change idref="t27" to="t26" to-position="0" resolved="yes">
+      <change idref="t27" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.566152&quot;;&#10;        g = &quot;0.803&quot;;&#10;        r = &quot;0.440847&quot;;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t27" attribute="title" type="string" to="任务 1"/>
+    </change>
+    <change idref="t28" to="t26" to-position="1" resolved="yes">
+      <change idref="t28" attribute="internalPrerequisitesString" type="string" to="27FS"/>
+      <change idref="t28" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.566152&quot;;&#10;        g = &quot;0.803&quot;;&#10;        r = &quot;0.440847&quot;;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t28" attribute="title" type="string" to="任务 2"/>
+    </change>
+    <change idref="t29" to="t26" to-position="2" resolved="yes">
+      <change idref="t29" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t29" attribute="internalPrerequisitesString" type="string" to="28FS"/>
+      <change idref="t29" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t29" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t29" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.566152&quot;;&#10;        g = &quot;0.803&quot;;&#10;        r = &quot;0.440847&quot;;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t29" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t29" attribute="title" type="string" to="里程碑1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="张玥" date="2018-06-27T09:57:07.381Z" timestamp="2018-06-27T09:57:07.381Z">
+    <change idref="t29" attribute="criticalPathProperties" type="dict" from="{&#10;    color =     {&#10;        h = &quot;0.4&quot;;&#10;        s = &quot;0.5&quot;;&#10;        space = srgb;&#10;        v = &quot;0.8&quot;;&#10;    };&#10;    enabled = 1;&#10;    root = 29;&#10;}" to="{&#10;    color =     {&#10;        h = &quot;0.4&quot;;&#10;        s = &quot;0.5&quot;;&#10;        space = srgb;&#10;        v = &quot;0.8&quot;;&#10;    };&#10;    enabled = 0;&#10;    root = 29;&#10;}" resolved="yes"/>
+    <change idref="t33" attribute="criticalPathProperties" type="dict" from="{&#10;    color =     {&#10;        h = &quot;0.6&quot;;&#10;        s = &quot;0.5&quot;;&#10;        space = srgb;&#10;        v = &quot;0.8&quot;;&#10;    };&#10;    enabled = 1;&#10;    root = 33;&#10;}" to="{&#10;    color =     {&#10;        b = 0;&#10;        g = 0;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    enabled = 1;&#10;    root = 33;&#10;}" resolved="yes"/>
+    <change idref="t37" attribute="criticalPathProperties" type="dict" from="{&#10;    color =     {&#10;        h = &quot;0.8&quot;;&#10;        s = &quot;0.5&quot;;&#10;        space = srgb;&#10;        v = &quot;0.8&quot;;&#10;    };&#10;    enabled = 1;&#10;    root = 37;&#10;}" to="{&#10;    color =     {&#10;        h = &quot;0.8&quot;;&#10;        s = &quot;0.5&quot;;&#10;        space = srgb;&#10;        v = &quot;0.8&quot;;&#10;    };&#10;    enabled = 0;&#10;    root = 37;&#10;}" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="张玥" date="2018-06-25T09:27:26.192Z" timestamp="2018-06-25T09:27:26.192Z">
+    <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcICVJlZFJzdFJldFJzZBEY8SJHfSAAIkeasAARGPAIChMWGRwfIicsAAAAAAAAAQEAAAAAAAAACgAAAAAAAAAAAAAAAAAAAC8="/>
+    <change idref="r15" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCjAQkO1AIDBAUGBwgGUmVkUnN0UmV0UnNkERjyIkd9IAAiR5qwANQCAwQFCgsMDREY9iJG4QAAIkcowAARGPXUAgMEBQoPEA0iRzbQACJHbxAACAwVGBseISQpLjc6P0RHUFUAAAAAAAABAQAAAAAAAAARAAAAAAAAAAAAAAAAAAAAWg=="/>
+  </resource-change-set>
+  <resource-change-set user="张玥" date="2018-06-25T09:38:46.698Z" timestamp="2018-06-25T09:38:46.698Z">
+    <change idref="r17" attribute="timeOffString" type="string" from="YnBsaXN0MDChAdQCAwQFBgcICVJlZFJzdFJldFJzZBEY8yJG4QAAIkdvEAARGPIIChMWGRwfIicsAAAAAAAAAQEAAAAAAAAACgAAAAAAAAAAAAAAAAAAAC8=" to="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ"/>
+  </resource-change-set>
+  <resource-change-set user="张玥" date="2018-06-26T09:39:49.507Z" timestamp="2018-06-26T09:39:49.507Z">
+    <change idref="r18" from="r-1" from-position="0" resolved="yes">
+      <change idref="r18" attribute="name" type="string" from="" to="资源 1"/>
+    </change>
+    <change idref="r19" to="r-1" to-position="0" resolved="yes">
+      <change idref="r19" attribute="name" type="string" from="" to="资源 1"/>
+    </change>
+  </resource-change-set>
+  <metadata-change-set user="张玥" date="2018-06-25T10:03:05.307Z" timestamp="2018-06-25T10:03:05.307Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U56e2\U961f\U5185\U90e8\U6c9f\U901a 2018/6/25&quot;;&#10;            uuid = mkIFFfJSpbt;&#10;        }&#10;    );&#10;}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="张玥" date="2018-06-25T10:04:21.718Z" timestamp="2018-06-25T10:04:21.718Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U56e2\U961f\U5185\U90e8\U6c9f\U901a 2018/6/25&quot;;&#10;            uuid = mkIFFfJSpbt;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U56e2\U961f\U5185\U90e8\U6c9f\U901a 2018/6/25&quot;;&#10;            uuid = mkIFFfJSpbt;&#10;        },&#10;                {&#10;            name = &quot;\U5411\U9886\U5bfc\U6c47\U62a5 2018/6/25&quot;;&#10;            uuid = &quot;azu5Va-5ZjV&quot;;&#10;        }&#10;    );&#10;}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="张玥" date="2018-06-25T10:05:58.982Z" timestamp="2018-06-25T10:05:58.982Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U56e2\U961f\U5185\U90e8\U6c9f\U901a 2018/6/25&quot;;&#10;            uuid = mkIFFfJSpbt;&#10;        },&#10;                {&#10;            name = &quot;\U5411\U9886\U5bfc\U6c47\U62a5 2018/6/25&quot;;&#10;            uuid = &quot;azu5Va-5ZjV&quot;;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U56e2\U961f\U5185\U90e8\U6c9f\U901a 2018/6/25&quot;;&#10;            uuid = mkIFFfJSpbt;&#10;        },&#10;                {&#10;            name = &quot;\U5411\U9886\U5bfc\U6c47\U62a5 2018/6/25&quot;;&#10;            uuid = &quot;azu5Va-5ZjV&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2018/6/25&quot;;&#10;            uuid = &quot;fWR-QaAjUmQ&quot;;&#10;        }&#10;    );&#10;}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="张玥" date="2018-06-26T09:39:49.507Z" timestamp="2018-06-26T09:39:49.507Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2018-06-21T00:00:00.000Z" to="2018-04-11T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="张玥" date="2018-06-27T09:57:07.380Z" timestamp="2018-06-27T09:57:07.380Z">
+    <change idref="m1" attribute="slackLimit" type="real" from="0" to="57600" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

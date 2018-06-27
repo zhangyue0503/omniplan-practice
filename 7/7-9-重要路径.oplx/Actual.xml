@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="fC-T8j9_4CI">
+  <start-date>2018-04-11T00:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>任务 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>里程碑 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>群组 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>资源 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>设备 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>素材 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>群组 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r19"/>
+  </resource>
+  <resource id="r19">
+    <name>资源 1</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t26"/>
+    <child-task idref="t30"/>
+    <child-task idref="t34"/>
+  </task>
+  <task id="t26">
+    <title>群组1</title>
+    <type>group</type>
+    <child-task idref="t27"/>
+    <child-task idref="t28"/>
+    <child-task idref="t29"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+  </task>
+  <task id="t27">
+    <title>任务 1</title>
+    <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+  </task>
+  <task id="t28">
+    <title>任务 2</title>
+    <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t27"/>
+  </task>
+  <task id="t29">
+    <title>里程碑1</title>
+    <type>milestone</type>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t28"/>
+  </task>
+  <task id="t30">
+    <title>群组2</title>
+    <type>group</type>
+    <child-task idref="t31"/>
+    <child-task idref="t32"/>
+    <child-task idref="t33"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+  </task>
+  <task id="t31">
+    <title>任务 4</title>
+    <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+  </task>
+  <task id="t32">
+    <title>任务 5</title>
+    <effort>57600</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t31"/>
+  </task>
+  <task id="t33">
+    <title>里程碑2</title>
+    <type>milestone</type>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t32"/>
+  </task>
+  <task id="t34">
+    <title>群组3</title>
+    <type>group</type>
+    <child-task idref="t35"/>
+    <child-task idref="t36"/>
+    <child-task idref="t37"/>
+  </task>
+  <task id="t35">
+    <title>任务6</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t36">
+    <title>任务7</title>
+    <effort>86400</effort>
+    <prerequisite-task idref="t35"/>
+  </task>
+  <task id="t37">
+    <title>里程碑3</title>
+    <type>milestone</type>
+    <prerequisite-task idref="t36"/>
+  </task>
+  <critical-path root="-1" enabled="true" resources="false">
+    <color space="srgb" r="1" g="0.5" b="0.5"/>
+  </critical-path>
+  <critical-path root="29" enabled="false" resources="false">
+    <color space="srgb" h="0.4" s="0.5" v="0.8"/>
+  </critical-path>
+  <critical-path root="33" enabled="true" resources="false">
+    <color space="srgb" r="0" g="0" b="0"/>
+  </critical-path>
+  <critical-path root="37" enabled="false" resources="false">
+    <color space="srgb" h="0.8" s="0.5" v="0.8"/>
+  </critical-path>
+</scenario>
